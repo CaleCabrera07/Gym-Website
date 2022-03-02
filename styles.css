@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,100;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&display=swap');
 :root {
     --primary-color: #f9043f;
     --black: #000;
@@ -139,6 +140,7 @@ body::-webkit-scrollbar-thumb {
 
 .hero__content h1 {
     font-size: clamp(3rem, 8vw, 7rem);
+    font-family: 'Bodoni Moda', serif;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
 }
@@ -162,7 +164,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 .button:hover {
-    background-color: var(--black);
+    background-color: transparent;
+    border: 3px solid var(--primary-color);
+}
+
+.btn__membership:hover {
+    background-color: transparent;
+    color: var(--black);
+    border: 3px solid var(--primary-color);
 }
 
 /* SERVICES SECTION */
@@ -498,6 +507,7 @@ form {
     margin-bottom: 2rem;
     color: var(--primary-color);
     font-size: 1.5rem;
+    font-family: 'Bodoni Moda', serif;
 }
 
 .footer__desc p {
@@ -522,8 +532,9 @@ form {
 }
 
 .footer__title {
-    font-size: 14px;
+    font-size: 1.5rem;
     margin-bottom: 16px;
+    color: #ff2356;
 }
 
 .footer__link {

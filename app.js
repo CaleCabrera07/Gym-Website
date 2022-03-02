@@ -58,9 +58,18 @@ gsap.from('.animate-team', {
     scrollTrigger: '.animate-team',
     duration: 1,
     opacity: 0,
-    y: -150,
+    x: -150,
     stagger: 0.3,
     delay: 0.2,
+});
+
+gsap.from('.animate2-team', {
+    scrollTrigger: '.animate-team',
+    duration: 1,
+    opacity: 0,
+    x: 150,
+    stagger: 0.3,
+    delay: 0.5,
 });
 
 gsap.from('.animate-email', {
